@@ -1,2 +1,7 @@
 mkdir go-http-server
 cd go-http-server
+
+go mod init github.com/username/go-http-server
+
+mkdir -p dist controllers models routes config
+touch main.go .env README.md
